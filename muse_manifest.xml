@@ -1,0 +1,25 @@
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1479616537284">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="master_a-master.css" crc="490190677" ref="portfolio:index:about:contact"/>
+    <file name="portfolio.css" crc="4209110700" ref="portfolio"/>
+    <file name="index.css" crc="4209110700" ref="index"/>
+    <file name="about.css" crc="4209110700" ref="about"/>
+    <file name="contact.css" crc="4209110700" ref="contact"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:portfolio:about:contact"/>
+    <file name="museutils.js" crc="163421577" ref="index:portfolio:about:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="index:portfolio:about:contact"/>
+    <file name="museconfig.js" crc="36584860" ref="index:portfolio:about:contact"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index:portfolio:about:contact"/>
+    <file name="require.js" crc="244322403" ref="index:portfolio:about:contact"/>
+  </folder>
+  <folder name="images">
+    <file name="website_logo.png" crc="4136862752" seo="true" ref="index:portfolio:about:contact"/>
+  </folder>
+  <file name="index.html" crc="493546024" seo="true" mt="1479616536242" redirect="true"/>
+  <file name="portfolio.html" crc="464437302" seo="true" mt="1479616536491" redirect="true"/>
+  <file name="about.html" crc="221627774" seo="true" mt="1479616536707" redirect="true"/>
+  <file name="contact.html" crc="253614577" seo="true" mt="1479616536954" redirect="true"/>
+</manifest>
