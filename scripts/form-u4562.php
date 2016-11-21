@@ -27,8 +27,8 @@ $form = array(
 		'unknown_method' => 'Unknown server request method'
 	),
 	'email' => array(
-		'from' => 'kguo@artists.sfai.edu',
-		'to' => 'kguo@artists.sfai.edu'
+		'from' => 'info@kurtguo.com',
+		'to' => 'info@kurtguo.com'
 	),
 	'recaptcha2' => array(
 		'private_key' => '6Le1fgwUAAAAAKIxQeidwafOTj6OrMTOSw-NJsY_'
