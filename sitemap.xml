@@ -25,55 +25,43 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/bio.html</loc>
-    <lastmod>2016-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://kurtguo.com/contact.html</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/thanks.html</loc>
+    <loc>http://kurtguo.com/bio.html</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/road510x340.jpg</loc>
+    <loc>http://kurtguo.com/images/dsc00006.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/road.jpg</loc>
+    <loc>http://kurtguo.com/images/dsc00011.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/cactus510x340.jpg</loc>
+    <loc>http://kurtguo.com/images/dsc00008.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/trees.jpg</loc>
+    <loc>http://kurtguo.com/images/004.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/trees510x340.jpg</loc>
-    <lastmod>2016-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://kurtguo.com/images/cactus.jpg</loc>
+    <loc>http://kurtguo.com/images/dsc00003.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
