@@ -7,24 +7,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/contact.html</loc>
-    <lastmod>2016-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://kurtguo.com/bio.html</loc>
-    <lastmod>2016-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://kurtguo.com/thanks.html</loc>
-    <lastmod>2016-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://kurtguo.com/travel.html</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -43,7 +25,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/artwork-2.svg</loc>
+    <loc>http://kurtguo.com/bio.html</loc>
+    <lastmod>2016-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kurtguo.com/contact.html</loc>
+    <lastmod>2016-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kurtguo.com/thanks.html</loc>
+    <lastmod>2016-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kurtguo.com/images/road510x340.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -55,13 +55,31 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://kurtguo.com/images/cactus.jpg</loc>
+    <loc>http://kurtguo.com/images/cactus510x340.jpg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://kurtguo.com/images/trees.jpg</loc>
+    <lastmod>2016-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kurtguo.com/images/trees510x340.jpg</loc>
+    <lastmod>2016-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kurtguo.com/images/cactus.jpg</loc>
+    <lastmod>2016-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://kurtguo.com/images/artwork-2.svg</loc>
     <lastmod>2016-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
