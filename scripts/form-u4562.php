@@ -27,8 +27,8 @@ $form = array(
 		'unknown_method' => 'Unknown server request method'
 	),
 	'email' => array(
-		'from' => 'info@kurtguo.com',
-		'to' => 'info@kurtguo.com'
+		'from' => 'gkb1@hotmail.com',
+		'to' => 'gkb1@hotmail.com'
 	),
 	'recaptcha2' => array(
 		'private_key' => '6Le1fgwUAAAAAKIxQeidwafOTj6OrMTOSw-NJsY_'

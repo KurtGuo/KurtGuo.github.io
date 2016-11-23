@@ -1,42 +1,48 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1479704017933">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1479885418555">
   <folder name="css">
     <file name="site_global.css" crc="347510960"/>
-    <file name="master_a-master.css" crc="3849461515" ref="index:contact:thanks:works:bio"/>
-    <file name="index.css" crc="30803442" ref="index"/>
-    <file name="contact.css" crc="4099074007" ref="contact"/>
-    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="thanks:works:bio:contact:index"/>
-    <file name="thanks.css" crc="4055472168" ref="thanks"/>
-    <file name="nomq_thanks.css" crc="4054551885" ref="thanks"/>
-    <file name="works.css" crc="30803442" ref="works"/>
-    <file name="nomq_works.css" crc="123417789" ref="works"/>
-    <file name="bio.css" crc="30803442" ref="bio"/>
-    <file name="nomq_bio.css" crc="123417789" ref="bio"/>
-    <file name="nomq_contact.css" crc="38514799" ref="contact"/>
-    <file name="nomq_index.css" crc="123417789" ref="index"/>
+    <file name="master_a-master.css" crc="4203485506" ref="index:contact:thanks:bio:travel:notebook:photography"/>
+    <file name="index.css" crc="3917739934" ref="index"/>
+    <file name="contact.css" crc="4206810826" ref="contact"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="thanks:bio:contact:index:travel:notebook:photography"/>
+    <file name="thanks.css" crc="3762312362" ref="thanks"/>
+    <file name="nomq_thanks.css" crc="4184030935" ref="thanks"/>
+    <file name="bio.css" crc="3917739934" ref="bio"/>
+    <file name="nomq_bio.css" crc="4044586456" ref="bio"/>
+    <file name="nomq_contact.css" crc="3856928102" ref="contact"/>
+    <file name="nomq_index.css" crc="4044586456" ref="index"/>
+    <file name="travel.css" crc="3917739934" ref="travel"/>
+    <file name="nomq_travel.css" crc="4044586456" ref="travel"/>
+    <file name="notebook.css" crc="3917739934" ref="notebook"/>
+    <file name="nomq_notebook.css" crc="4044586456" ref="notebook"/>
+    <file name="photography.css" crc="3917739934" ref="photography"/>
+    <file name="nomq_photography.css" crc="4044586456" ref="photography"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact:bio:works:thanks"/>
-    <file name="museutils.js" crc="163421577" ref="index:contact:bio:works:thanks"/>
-    <file name="whatinput.js" crc="86476730" ref="index:contact:bio:works:thanks"/>
-    <file name="museconfig.js" crc="36584860" ref="index:contact:bio:works:thanks"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index:contact:bio:works:thanks"/>
-    <file name="require.js" crc="244322403" ref="index:contact:bio:works:thanks"/>
-    <file name="jquery.musemenu.js" crc="146495465" ref="index:bio:contact:works:thanks"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:bio:contact:works:thanks"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:bio:contact:works:thanks"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact:bio:thanks:photography:travel:notebook"/>
+    <file name="museutils.js" crc="163421577" ref="index:contact:bio:thanks:photography:travel:notebook"/>
+    <file name="whatinput.js" crc="86476730" ref="index:contact:bio:thanks:photography:travel:notebook"/>
+    <file name="museconfig.js" crc="36584860" ref="index:contact:bio:thanks:photography:travel:notebook"/>
+    <file name="jquery.watch.js" crc="104486786" ref="index:contact:bio:thanks:photography:travel:notebook"/>
+    <file name="require.js" crc="244322403" ref="index:contact:bio:thanks:photography:travel:notebook"/>
+    <file name="jquery.musemenu.js" crc="146495465" ref="index:bio:contact:thanks:photography:travel:notebook"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:bio:contact:thanks:photography:travel:notebook"/>
+    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:bio:contact:thanks:photography:travel:notebook"/>
     <file name="webpro.js" crc="3848665353" ref="contact"/>
     <file name="form_check.php" crc="4091251153" ref="contact"/>
     <file name="form_process.php" crc="444353918" ref="contact"/>
-    <file name="form-u4562.php" crc="4077831929" ref="contact"/>
+    <file name="form-u4562.php" crc="282058582" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:bio:contact:works:thanks"/>
-    <file name="artwork-2.svg" crc="4140112688" seo="true" ref="index:bio:contact:works:thanks"/>
+    <file name="blank.gif" crc="4208392903" ref="index:bio:contact:thanks:photography:travel:notebook"/>
+    <file name="artwork-2.svg" crc="4140112688" seo="true" ref="index:bio:contact:thanks:photography:travel:notebook"/>
     <file name="artwork 2_poster_.png" crc="408859835" ref="index"/>
   </folder>
-  <file name="index.html" crc="4220439869" seo="true" mt="1479704010798" redirect="true"/>
-  <file name="contact.html" crc="336404912" seo="true" mt="1479704012824" redirect="true"/>
-  <file name="bio.html" crc="4230507307" seo="true" mt="1479704011920" redirect="true"/>
-  <file name="works.html" crc="3758950730" seo="true" mt="1479704015756" redirect="true"/>
-  <file name="thanks.html" crc="225855545" seo="true" mt="1479704016628" redirect="true"/>
+  <file name="index.html" crc="313092121" seo="true" mt="1479884682746" redirect="true"/>
+  <file name="contact.html" crc="367366674" seo="true" mt="1479885392846" redirect="true"/>
+  <file name="bio.html" crc="133904346" seo="true" mt="1479884682746" redirect="true"/>
+  <file name="thanks.html" crc="240086153" seo="true" mt="1479884682746" redirect="true"/>
+  <file name="photography.html" crc="51479985" seo="true" mt="1479884682746" redirect="true"/>
+  <file name="travel.html" crc="3978562216" seo="true" mt="1479884682746" redirect="true"/>
+  <file name="notebook.html" crc="393323355" seo="true" mt="1479884682752" redirect="true"/>
 </manifest>
