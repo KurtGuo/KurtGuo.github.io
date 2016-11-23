@@ -1,6 +1,6 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1479928622360">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1479934121277">
   <folder name="css">
-    <file name="site_global.css" crc="104970200"/>
+    <file name="site_global.css" crc="420324811"/>
     <file name="master_a-master.css" crc="4292697446" ref="index:contact:bio:travel:notebook:photography"/>
     <file name="index.css" crc="3800895452" ref="index"/>
     <file name="contact.css" crc="368037463" ref="contact"/>
@@ -29,7 +29,7 @@
   <folder name="images">
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="artwork-2.svg" crc="4140112688" seo="true" ref="index:bio:contact:photography:travel:notebook"/>
-    <file name="artwork 2_poster_.png" crc="408859835" ref="index:travel"/>
+    <file name="artwork 2_poster_.png" crc="408859835" ref="index:travel:bio"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
     <file name="dsc00003.jpg" crc="149687434" seo="true" ref="index"/>
     <file name="dsc00006.jpg" crc="3977496301" seo="true" ref="index"/>
@@ -44,7 +44,7 @@
   </folder>
   <file name="index.html" crc="191899058" seo="true" mt="1479927896014" redirect="true"/>
   <file name="contact.html" crc="3778427612" seo="true" mt="1479927896016" redirect="true"/>
-  <file name="bio.html" crc="6305383" seo="true" mt="1479927896015" redirect="true"/>
+  <file name="bio.html" crc="4252015600" seo="true" mt="1479934106345" redirect="true"/>
   <file name="photography.html" crc="170098393" seo="true" mt="1479927896009" redirect="true"/>
   <file name="travel.html" crc="3897905514" seo="true" mt="1479928618492" redirect="true"/>
   <file name="notebook.html" crc="140275649" seo="true" mt="1479927896009" redirect="true"/>
