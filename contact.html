@@ -11,14 +11,19 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "webpro.js", "jquery.watch.js", "require.js", "contact.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "webpro.js", "contact.css"], "outOfDate":[]};
 </script>
   
   <title>Contact</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=104970200"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4292697446"/>
-  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=368037463" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=420324811"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3931809708"/>
+  <link rel="stylesheet" type="text/css" href="css/contact.css?crc=85019536" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=4069860538"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_contact.css?crc=306310199" id="nomq_pagesheet"/>
+  <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -33,47 +38,48 @@ var muReCAPTCHA2OnloadCallback = function() {
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu5045"><!-- column -->
-    <a class="nonblock nontext clip_frame colelem" id="u5045" href="index.html"><!-- svg --><img class="svg" id="u5040" src="images/artwork-2.svg?crc=4140112688" width="113" height="88" alt="" data-mu-svgfallback="images/artwork%202_poster_.png?crc=408859835"/></a>
-    <nav class="MenuBar clearfix colelem" id="menuu4819"><!-- vertical box -->
-     <div class="MenuItemContainer clearfix colelem" id="u4827"><!-- horizontal box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4830" href="index.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4831-4"><!-- content --><p>Home</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix colelem" id="u4820"><!-- horizontal box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4821" href="photography.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4824-4"><!-- content --><p>Photography</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix colelem" id="u5228"><!-- horizontal box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u5229" href="travel.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u5231-4"><!-- content --><p>Travel</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix colelem" id="u5289"><!-- horizontal box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u5290" href="notebook.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u5293-4"><!-- content --><p>Notebook</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix colelem" id="u4879"><!-- horizontal box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4882" href="bio.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4884-4"><!-- content --><p>Bio</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix colelem" id="u4927"><!-- horizontal box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u4928" href="contact.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4930-4"><!-- content --><p>Contact</p></div></a>
-     </div>
-    </nav>
-   </div>
-   <div class="clearfix grpelem" id="pu13076-24"><!-- column -->
-    <div class="clearfix colelem" id="u13076-24"><!-- content -->
-     <p><span id="u13076">Kurt Guo</span></p>
-     <p><a class="nonblock" href="mailto:kurtguophotography@gmail.com">kurtguophotography@gmail.com</a></p>
-     <p>&nbsp;</p>
-     <p>&nbsp;</p>
-     <p>&nbsp;</p>
-     <p>&nbsp;</p>
-     <p>&nbsp;</p>
-     <p>c/o MICA Postal &amp; Print</p>
-     <p>1401 W Mount Royal Ave</p>
-     <p>Baltimore, MD 21217-4245</p>
-     <p><span id="u13076-17">Tel/ 1 410-225-2202</span></p>
-     <p><span id="u13076-19">E/ </span><a class="nonblock" href="mailto:postalandprint@mica.edu">postalandprint@mica.edu</a></p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="901"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu5045"><!-- column -->
+     <a class="nonblock nontext clip_frame colelem shared_content" id="u5045" href="index.html" data-content-guid="u5045_content"><!-- svg --><img class="svg temp_no_img_src" id="u5040" data-orig-src="images/artwork-2.svg?crc=4140112688" width="113" height="88" alt="" data-mu-svgfallback="images/artwork%202_poster_.png?crc=408859835" src="images/blank.gif?crc=4208392903"/></a>
+     <nav class="MenuBar clearfix colelem" id="menuu4819"><!-- vertical box -->
+      <div class="MenuItemContainer clearfix colelem" id="u4827"><!-- horizontal box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4830" href="index.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4831-4"><!-- content --><p class="shared_content" data-content-guid="u4831-4_0_content">Home</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix colelem" id="u4820"><!-- horizontal box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4821" href="photography.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4824-4"><!-- content --><p class="shared_content" data-content-guid="u4824-4_0_content">Photography</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix colelem" id="u5228"><!-- horizontal box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u5229" href="travel.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u5231-4"><!-- content --><p class="shared_content" data-content-guid="u5231-4_0_content">Travel</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix colelem" id="u5289"><!-- horizontal box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u5290" href="notebook.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u5293-4"><!-- content --><p class="shared_content" data-content-guid="u5293-4_0_content">Notebook</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix colelem" id="u4879"><!-- horizontal box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4882" href="bio.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4884-4"><!-- content --><p class="shared_content" data-content-guid="u4884-4_0_content">Bio</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix colelem" id="u4927"><!-- horizontal box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u4928" href="contact.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u4930-4"><!-- content --><p class="shared_content" data-content-guid="u4930-4_0_content">Contact</p></div></a>
+      </div>
+     </nav>
     </div>
-    <div class="size_fixed colelem" id="u13169"><!-- custom html -->
-     
+    <div class="clearfix grpelem shared_content" id="pu13076-24" data-content-guid="pu13076-24_content"><!-- column -->
+     <div class="clearfix colelem shared_content" id="u13076-24" data-content-guid="u13076-24_content"><!-- content -->
+      <p><span id="u13076">Kurt Guo</span></p>
+      <p><a class="nonblock" href="mailto:kurtguophotography@gmail.com">kurtguophotography@gmail.com</a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>c/o MICA Postal &amp; Print</p>
+      <p>1401 W Mount Royal Ave</p>
+      <p>Baltimore, MD 21217-4245</p>
+      <p><span id="u13076-17">Tel/ 1 410-225-2202</span></p>
+      <p><span id="u13076-19">E/ </span><a class="nonblock" href="mailto:postalandprint@mica.edu">postalandprint@mica.edu</a></p>
+     </div>
+     <div class="size_fixed colelem shared_content" id="u13169" data-content-guid="u13169_content"><!-- custom html -->
+      
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations">
 <input type="hidden" name="business" value="gkb1@hotmail.com">
@@ -86,41 +92,250 @@ var muReCAPTCHA2OnloadCallback = function() {
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-    </div>
-   </div>
-   <div class="grpelem" id="u13166"><!-- rasterized frame --></div>
-   <form class="form-grp clearfix grpelem" id="widgetu13080" method="post" enctype="multipart/form-data" action="scripts/form-u13080.php"><!-- none box -->
-    <div class="fld-grp clearfix grpelem" id="widgetu13087" data-required="true"><!-- none box -->
-     <label class="fld-label actAsDiv Tre-14 clearfix grpelem" id="u13088-4" for="widgetu13087_input"><!-- content --><span class="actAsPara">Name:</span></label>
-     <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u13089-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu13087_input" name="custom_U13087" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu13087_prompt" for="widgetu13087_input"><span class="actAsPara">Enter Name</span></label></span>
-    </div>
-    <div class="fld-grp clearfix grpelem" id="widgetu13091" data-required="true" data-type="email"><!-- none box -->
-     <label class="fld-label actAsDiv Tre-14 clearfix grpelem" id="u13093-4" for="widgetu13091_input"><!-- content --><span class="actAsPara">Email:</span></label>
-     <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u13092-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu13091_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu13091_prompt" for="widgetu13091_input"><span class="actAsPara">Enter Email</span></label></span>
-    </div>
-    <div class="clearfix grpelem" id="u13096-4"><!-- content -->
-     <p>Submitting Form...</p>
-    </div>
-    <div class="clearfix grpelem" id="u13085-4"><!-- content -->
-     <p>The server encountered an error.</p>
-    </div>
-    <div class="clearfix grpelem" id="u13086-4"><!-- content -->
-     <p>Form received.</p>
-    </div>
-    <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u13095-4" type="submit" value="Submit" tabindex="5"><!-- content -->
-     <div style="margin-top:-11px;height:11px;">
-      <p>Submit</p>
      </div>
-    </button>
-    <div class="fld-grp clearfix grpelem" id="widgetu13097" data-required="false"><!-- none box -->
-     <label class="fld-label actAsDiv Tre-14 clearfix grpelem" id="u13100-4" for="widgetu13097_input"><!-- content --><span class="actAsPara">Message:</span></label>
-     <span class="fld-textarea actAsDiv clearfix grpelem" id="u13099-4"><!-- content --><textarea class="wrapped-input" id="widgetu13097_input" name="custom_U13097" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu13097_prompt" for="widgetu13097_input"><span class="actAsPara">Enter Your Message</span></label></span>
     </div>
-    <div class="fld-grp clearfix grpelem" id="widgetu13081" data-required="true" data-type="recaptcha2"><!-- none box -->
-     <div class="grpelem" id="widgetu13081_recaptcha2"><!-- reCAPTCHA 2.0 widget --></div>
+    <div class="grpelem shared_content" id="u13166" data-content-guid="u13166_content"><!-- rasterized frame --></div>
+    <form class="form-grp clearfix grpelem" id="widgetu13080" method="post" enctype="multipart/form-data" action="scripts/form-u13080.php"><!-- none box -->
+     <div class="fld-grp clearfix grpelem" id="widgetu13087" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem" id="u13088-4" for="widgetu13087_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u13088-4_0_content">Name:</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u13089-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu13087_input" name="custom_U13087" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu13087_prompt" for="widgetu13087_input"><span class="actAsPara shared_content" data-content-guid="widgetu13087_prompt_0_content">Enter Name</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu13091" data-required="true" data-type="email"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem" id="u13093-4" for="widgetu13091_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u13093-4_0_content">Email:</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u13092-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu13091_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu13091_prompt" for="widgetu13091_input"><span class="actAsPara shared_content" data-content-guid="widgetu13091_prompt_0_content">Enter Email</span></label></span>
+     </div>
+     <div class="clearfix grpelem" id="u13096-4"><!-- content -->
+      <p class="shared_content" data-content-guid="u13096-4_0_content">Submitting Form...</p>
+     </div>
+     <div class="clearfix grpelem" id="u13085-4"><!-- content -->
+      <p class="shared_content" data-content-guid="u13085-4_0_content">The server encountered an error.</p>
+     </div>
+     <div class="clearfix grpelem" id="u13086-4"><!-- content -->
+      <p class="shared_content" data-content-guid="u13086-4_0_content">Form received.</p>
+     </div>
+     <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u13095-4" type="submit" value="Submit" tabindex="5"><!-- content -->
+      <div style="margin-top:-11px;height:11px;" class="shared_content" data-content-guid="u13095-4_0_content">
+       <p>Submit</p>
+      </div>
+     </button>
+     <div class="fld-grp clearfix grpelem" id="widgetu13097" data-required="false"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem" id="u13100-4" for="widgetu13097_input"><!-- content --><span class="actAsPara shared_content" data-content-guid="u13100-4_0_content">Message:</span></label>
+      <span class="fld-textarea actAsDiv clearfix grpelem" id="u13099-4"><!-- content --><textarea class="wrapped-input" id="widgetu13097_input" name="custom_U13097" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu13097_prompt" for="widgetu13097_input"><span class="actAsPara shared_content" data-content-guid="widgetu13097_prompt_0_content">Enter Your Message</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu13081" data-required="true" data-type="recaptcha2"><!-- none box -->
+      <div class="grpelem shared_content" id="widgetu13081_recaptcha2" data-content-guid="widgetu13081_recaptcha2_content"><!-- reCAPTCHA 2.0 widget --></div>
+     </div>
+    </form>
+    <div class="verticalspacer" data-offset-top="417" data-content-above-spacer="438" data-content-below-spacer="83"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_900" data-min-width="781" data-max-width="900"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppmenuu4819"><!-- column -->
+     <div class="clearfix colelem" id="pmenuu4819"><!-- group -->
+      <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu4819"><!-- vertical box -->
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4827"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="index.html" data-orig-id="u4830"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4831-4"><!-- content --><span class="placeholder" data-placeholder-for="u4831-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4820"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="photography.html" data-orig-id="u4821"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4824-4"><!-- content --><span class="placeholder" data-placeholder-for="u4824-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u5228"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="travel.html" data-orig-id="u5229"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u5231-4"><!-- content --><span class="placeholder" data-placeholder-for="u5231-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u5289"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="notebook.html" data-orig-id="u5290"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u5293-4"><!-- content --><span class="placeholder" data-placeholder-for="u5293-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4879"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="bio.html" data-orig-id="u4882"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4884-4"><!-- content --><span class="placeholder" data-placeholder-for="u4884-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4927"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="contact.html" data-orig-id="u4928"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4930-4"><!-- content --><span class="placeholder" data-placeholder-for="u4930-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+      </nav>
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u5045_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u13076-24_content"><!-- placeholder node --></span>
+     </div>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u13169_content"><!-- placeholder node --></span>
     </div>
-   </form>
-   <div class="verticalspacer" data-offset-top="417" data-content-above-spacer="438" data-content-below-spacer="83"></div>
+    <span class="grpelem placeholder" data-placeholder-for="u13166_content"><!-- placeholder node --></span>
+    <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u13080.php" data-orig-id="widgetu13080"><!-- none box -->
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu13087"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13087_input" data-orig-id="u13088-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13088-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13089-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U13087" tabindex="6" data-orig-id="widgetu13087_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13087_input" data-orig-id="widgetu13087_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13087_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu13091"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13091_input" data-orig-id="u13093-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13093-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13092-4"><!-- content --><input class="wrapped-input temp_no_id" type="email" spellcheck="false" name="Email" tabindex="7" data-orig-id="widgetu13091_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13091_input" data-orig-id="widgetu13091_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13091_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13096-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13096-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13085-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13085-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13086-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13086-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Submit" tabindex="10" data-orig-id="u13095-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13095-4_0_content"><!-- placeholder node --></span>
+     </button>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu13097"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13097_input" data-orig-id="u13100-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13100-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13099-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U13097" tabindex="8" data-orig-id="widgetu13097_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13097_input" data-orig-id="widgetu13097_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13097_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="recaptcha2" data-orig-id="widgetu13081"><!-- none box -->
+      <span class="grpelem placeholder" data-placeholder-for="widgetu13081_recaptcha2_content"><!-- placeholder node --></span>
+     </div>
+    </form>
+    <div class="verticalspacer" data-offset-top="405" data-content-above-spacer="426" data-content-below-spacer="94"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_780" data-min-width="751" data-max-width="780"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppmenuu4819"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pmenuu4819"><!-- group -->
+      <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu4819"><!-- vertical box -->
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4827"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="index.html" data-orig-id="u4830"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4831-4"><!-- content --><span class="placeholder" data-placeholder-for="u4831-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4820"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="photography.html" data-orig-id="u4821"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4824-4"><!-- content --><span class="placeholder" data-placeholder-for="u4824-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u5228"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="travel.html" data-orig-id="u5229"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u5231-4"><!-- content --><span class="placeholder" data-placeholder-for="u5231-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u5289"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="notebook.html" data-orig-id="u5290"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u5293-4"><!-- content --><span class="placeholder" data-placeholder-for="u5293-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4879"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="bio.html" data-orig-id="u4882"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4884-4"><!-- content --><span class="placeholder" data-placeholder-for="u4884-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4927"><!-- horizontal box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="contact.html" data-orig-id="u4928"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u4930-4"><!-- content --><span class="placeholder" data-placeholder-for="u4930-4_0_content"><!-- placeholder node --></span></div></a>
+       </div>
+      </nav>
+      <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u5045_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u13076-24_content"><!-- placeholder node --></span>
+     </div>
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u13169_content"><!-- placeholder node --></span>
+    </div>
+    <span class="grpelem placeholder" data-placeholder-for="u13166_content"><!-- placeholder node --></span>
+    <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u13080.php" data-orig-id="widgetu13080"><!-- none box -->
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu13087"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13087_input" data-orig-id="u13088-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13088-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13089-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U13087" tabindex="11" data-orig-id="widgetu13087_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13087_input" data-orig-id="widgetu13087_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13087_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu13091"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13091_input" data-orig-id="u13093-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13093-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13092-4"><!-- content --><input class="wrapped-input temp_no_id" type="email" spellcheck="false" name="Email" tabindex="12" data-orig-id="widgetu13091_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13091_input" data-orig-id="widgetu13091_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13091_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13096-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13096-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13085-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13085-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13086-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13086-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Submit" tabindex="15" data-orig-id="u13095-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13095-4_0_content"><!-- placeholder node --></span>
+     </button>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu13097"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13097_input" data-orig-id="u13100-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13100-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13099-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U13097" tabindex="13" data-orig-id="widgetu13097_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13097_input" data-orig-id="widgetu13097_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13097_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="recaptcha2" data-orig-id="widgetu13081"><!-- none box -->
+      <span class="grpelem placeholder" data-placeholder-for="widgetu13081_recaptcha2_content"><!-- placeholder node --></span>
+     </div>
+    </form>
+    <div class="verticalspacer" data-offset-top="422" data-content-above-spacer="442" data-content-below-spacer="78"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_750" data-min-width="621" data-max-width="750"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u5045_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu13076-24_content"><!-- placeholder node --></span>
+    <span class="grpelem placeholder" data-placeholder-for="u13166_content"><!-- placeholder node --></span>
+    <form class="form-grp clearfix grpelem temp_no_id" method="post" enctype="multipart/form-data" action="scripts/form-u13080.php" data-orig-id="widgetu13080"><!-- none box -->
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-orig-id="widgetu13087"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13087_input" data-orig-id="u13088-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13088-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13089-4"><!-- content --><input class="wrapped-input temp_no_id" type="text" spellcheck="false" name="custom_U13087" tabindex="16" data-orig-id="widgetu13087_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13087_input" data-orig-id="widgetu13087_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13087_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="email" data-orig-id="widgetu13091"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13091_input" data-orig-id="u13093-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13093-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13092-4"><!-- content --><input class="wrapped-input temp_no_id" type="email" spellcheck="false" name="Email" tabindex="17" data-orig-id="widgetu13091_input"/><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13091_input" data-orig-id="widgetu13091_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13091_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13096-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13096-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13085-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13085-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u13086-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13086-4_0_content"><!-- placeholder node --></span>
+     </div>
+     <button class="submit-btn NoWrap rounded-corners clearfix grpelem temp_no_id" type="submit" value="Submit" tabindex="20" data-orig-id="u13095-4"><!-- content -->
+      <span class="placeholder" data-placeholder-for="u13095-4_0_content"><!-- placeholder node --></span>
+     </button>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="false" data-orig-id="widgetu13097"><!-- none box -->
+      <label class="fld-label actAsDiv Tre-14 clearfix grpelem temp_no_id" for="widgetu13097_input" data-orig-id="u13100-4"><!-- content --><span class="actAsPara placeholder" data-placeholder-for="u13100-4_0_content"><!-- placeholder node --></span></label>
+      <span class="fld-textarea actAsDiv clearfix grpelem temp_no_id" data-orig-id="u13099-4"><!-- content --><textarea class="wrapped-input temp_no_id" name="custom_U13097" tabindex="18" data-orig-id="widgetu13097_input"></textarea><label class="wrapped-input fld-prompt temp_no_id" for="widgetu13097_input" data-orig-id="widgetu13097_prompt"><span class="actAsPara placeholder" data-placeholder-for="widgetu13097_prompt_0_content"><!-- placeholder node --></span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem temp_no_id" data-required="true" data-type="recaptcha2" data-orig-id="widgetu13081"><!-- none box -->
+      <span class="grpelem placeholder" data-placeholder-for="widgetu13081_recaptcha2_content"><!-- placeholder node --></span>
+     </div>
+    </form>
+    <nav class="MenuBar clearfix" id="menuu14887"><!-- vertical box -->
+     <div class="MenuItemContainer clearfix colelem" id="u14888"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u14889" href="index.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u14890-4"><!-- content --><p class="shared_content" data-content-guid="u14890-4_0_content">Home</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem" id="u14923"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u14924" href="photography.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u14927-4"><!-- content --><p class="shared_content" data-content-guid="u14927-4_0_content">Photography</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem" id="u14895"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u14896" href="travel.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u14897-4"><!-- content --><p class="shared_content" data-content-guid="u14897-4_0_content">Travel</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem" id="u14909"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u14910" href="notebook.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u14913-4"><!-- content --><p class="shared_content" data-content-guid="u14913-4_0_content">Notebook</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem" id="u14902"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u14903" href="bio.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u14904-4"><!-- content --><p class="shared_content" data-content-guid="u14904-4_0_content">Bio</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem" id="u14916"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u14917" href="contact.html"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem" id="u14920-4"><!-- content --><p class="shared_content" data-content-guid="u14920-4_0_content">Contact</p></div></a>
+     </div>
+    </nav>
+    <div class="verticalspacer" data-offset-top="493" data-content-above-spacer="513" data-content-below-spacer="61"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_620" data-max-width="620"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <span class="nonblock nontext clip_frame grpelem placeholder" data-placeholder-for="u5045_content"><!-- placeholder node --></span>
+    <span class="clearfix grpelem placeholder" data-placeholder-for="pu13076-24_content"><!-- placeholder node --></span>
+    <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu14887"><!-- vertical box -->
+     <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u14888"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="index.html" data-orig-id="u14889"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u14890-4"><!-- content --><span class="placeholder" data-placeholder-for="u14890-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u14923"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="photography.html" data-orig-id="u14924"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u14927-4"><!-- content --><span class="placeholder" data-placeholder-for="u14927-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u14895"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="travel.html" data-orig-id="u14896"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u14897-4"><!-- content --><span class="placeholder" data-placeholder-for="u14897-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u14909"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="notebook.html" data-orig-id="u14910"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u14913-4"><!-- content --><span class="placeholder" data-placeholder-for="u14913-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u14902"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="bio.html" data-orig-id="u14903"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u14904-4"><!-- content --><span class="placeholder" data-placeholder-for="u14904-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u14916"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="contact.html" data-orig-id="u14917"><!-- horizontal box --><div class="MenuItemLabel manu clearfix grpelem temp_no_id" data-orig-id="u14920-4"><!-- content --><span class="placeholder" data-placeholder-for="u14920-4_0_content"><!-- placeholder node --></span></div></a>
+     </div>
+    </nav>
+    <div class="verticalspacer" data-offset-top="356" data-content-above-spacer="428" data-content-below-spacer="144"></div>
+   </div>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -132,14 +347,14 @@ var muReCAPTCHA2OnloadCallback = function() {
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","webpro","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","webpro","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#widgetu13080', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu13080 */
-Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_900', '#bp_780', '#bp_750', '#bp_620'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#widgetu13080', ['#bp_infinity', '#bp_900', '#bp_780', '#bp_750'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu13080 */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
