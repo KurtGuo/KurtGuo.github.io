@@ -1,63 +1,148 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1483338744647">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="kurtguo.com" resolutions="1x" timestamp="1498539148160">
   <folder name="css">
     <file name="site_global.css" crc="420324811"/>
-    <file name="master_a-master.css" crc="3931809708" ref="index:contact:bio:travel:notebook:photography"/>
-    <file name="index.css" crc="210288933" ref="index"/>
-    <file name="contact.css" crc="85019536" ref="contact"/>
-    <file name="bio.css" crc="447572394" ref="bio"/>
-    <file name="travel.css" crc="343810836" ref="travel"/>
-    <file name="notebook.css" crc="4266842357" ref="notebook"/>
-    <file name="photography.css" crc="4266842357" ref="photography"/>
-    <file name="nomq_preview_master_a-master.css" crc="4069860538" ref="index:photography:travel:bio:notebook:contact"/>
-    <file name="nomq_index.css" crc="4213811527" ref="index"/>
-    <file name="nomq_photography.css" crc="4003900685" ref="photography"/>
-    <file name="nomq_travel.css" crc="4139395859" ref="travel"/>
-    <file name="nomq_bio.css" crc="424017982" ref="bio"/>
-    <file name="nomq_notebook.css" crc="4003900685" ref="notebook"/>
-    <file name="nomq_contact.css" crc="306310199" ref="contact"/>
+    <file name="master_a-master.css" crc="355852359" ref="contact:travel:index:bio:notebook:photography:sgp:chn:hkg:kor:usa"/>
+    <file name="nomq_preview_master_a-master.css" crc="4267507470" ref="contact:travel:index:bio:notebook:photography:sgp:chn:hkg:kor:usa"/>
+    <file name="contact.css" crc="57237481" ref="contact"/>
+    <file name="nomq_contact.css" crc="176728499" ref="contact"/>
+    <file name="travel.css" crc="4229736028" ref="travel"/>
+    <file name="nomq_travel.css" crc="150217275" ref="travel"/>
+    <file name="index.css" crc="3802986871" ref="index"/>
+    <file name="nomq_index.css" crc="4078429877" ref="index"/>
+    <file name="bio.css" crc="3985139525" ref="bio"/>
+    <file name="nomq_bio.css" crc="4222620438" ref="bio"/>
+    <file name="notebook.css" crc="472995543" ref="notebook"/>
+    <file name="nomq_notebook.css" crc="4195560836" ref="notebook"/>
+    <file name="photography.css" crc="375501615" ref="photography"/>
+    <file name="nomq_photography.css" crc="3848832315" ref="photography"/>
+    <file name="sgp.css" crc="3797878562" ref="sgp"/>
+    <file name="nomq_sgp.css" crc="4235721235" ref="sgp"/>
+    <file name="chn.css" crc="445030326" ref="chn"/>
+    <file name="nomq_chn.css" crc="28046218" ref="chn"/>
+    <file name="hkg.css" crc="4116704565" ref="hkg"/>
+    <file name="nomq_hkg.css" crc="4247163994" ref="hkg"/>
+    <file name="kor.css" crc="380195109" ref="kor"/>
+    <file name="nomq_kor.css" crc="3933287123" ref="kor"/>
+    <file name="usa.css" crc="3948330366" ref="usa"/>
+    <file name="nomq_usa.css" crc="459915193" ref="usa"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:contact:bio:photography:travel:notebook"/>
-    <file name="museutils.js" crc="163421577" ref="index:contact:bio:photography:travel:notebook"/>
-    <file name="whatinput.js" crc="86476730" ref="index:contact:bio:photography:travel:notebook"/>
-    <file name="museconfig.js" crc="36584860" ref="index:contact:bio:photography:travel:notebook"/>
-    <file name="jquery.watch.js" crc="104486786" ref="index:contact:bio:photography:travel:notebook"/>
-    <file name="require.js" crc="244322403" ref="index:contact:bio:photography:travel:notebook"/>
-    <file name="jquery.musemenu.js" crc="146495465" ref="index:bio:contact:photography:travel:notebook"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:bio:contact:photography:travel:notebook"/>
-    <file name="webpro.js" crc="3848665353" ref="index:contact:travel"/>
-    <file name="musewpslideshow.js" crc="4041717617" ref="index:travel"/>
-    <file name="jquery.museoverlay.js" crc="36492500" ref="index:travel"/>
-    <file name="touchswipe.js" crc="404375771" ref="index:travel"/>
-    <file name="form_check.php" crc="4091251153" ref="contact"/>
-    <file name="form_process.php" crc="444353918" ref="contact"/>
-    <file name="form-u13080.php" crc="468761294" ref="contact"/>
-    <file name="jquery.museresponsive.js" crc="4146931122" ref="index:bio:contact:photography:travel:notebook"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="museutils.js" crc="4232573551" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="whatinput.js" crc="86476730" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="jquery.musemenu.js" crc="38860304" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="webpro.js" crc="3770351119" ref="index:contact:travel"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="index:travel"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="index:travel"/>
+    <file name="touchswipe.js" crc="3912873526" ref="index:travel"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="jquery.museresponsive.js" crc="433634197" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="require.js" crc="4234670167" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="form_check.php" crc="218939094" ref="contact"/>
+    <file name="form_process.php" crc="238541442" ref="contact"/>
+    <file name="form-u13080.php" crc="4216960689" ref="contact"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:bio:contact:photography:travel:notebook"/>
-    <file name="artwork-2.svg" crc="4140112688" seo="true" ref="index:bio:contact:photography:travel:notebook"/>
-    <file name="artwork 2_poster_.png" crc="408859835" ref="index:bio"/>
+    <file name="artwork-2.svg" crc="4140112688" seo="true" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor">
+      <caption webpage="usa" alt=""/>
+      <caption webpage="usa" alt=""/>
+      <caption webpage="usa" alt=""/>
+      <caption webpage="chn" alt=""/>
+      <caption webpage="chn" alt=""/>
+      <caption webpage="chn" alt=""/>
+      <caption webpage="notebook" alt=""/>
+      <caption webpage="notebook" alt=""/>
+      <caption webpage="notebook" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="kor" alt=""/>
+      <caption webpage="kor" alt=""/>
+      <caption webpage="kor" alt=""/>
+      <caption webpage="hkg" alt=""/>
+      <caption webpage="hkg" alt=""/>
+      <caption webpage="hkg" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="sgp" alt=""/>
+      <caption webpage="sgp" alt=""/>
+      <caption webpage="sgp" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="travel" alt=""/>
+      <caption webpage="travel" alt=""/>
+      <caption webpage="travel" alt=""/>
+      <caption webpage="bio" alt=""/>
+      <caption webpage="bio" alt=""/>
+      <caption webpage="bio" alt=""/>
+      <caption webpage="bio" alt=""/>
+    </file>
+    <file name="artwork 2_poster_.png" crc="408859835" ref="index:travel:photography:contact:bio"/>
+    <file name="dsc00003.jpg" crc="149687434" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:bio:contact:photography:travel:notebook:usa:chn:hkg:sgp:kor"/>
+    <file name="dsc00006.jpg" crc="3977496301" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dsc00008.jpg" crc="326055093" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="dsc00011.jpg" crc="4286373708" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="dsc00003.jpg" crc="149687434" seo="true" ref="index"/>
-    <file name="dsc00006.jpg" crc="3977496301" seo="true" ref="index"/>
-    <file name="dsc00008.jpg" crc="326055093" seo="true" ref="index"/>
-    <file name="dsc00011.jpg" crc="4286373708" seo="true" ref="index"/>
-    <file name="004.jpg" crc="11723920" seo="true" ref="bio"/>
+    <file name="004.jpg" crc="11723920" seo="true" ref="bio">
+      <caption webpage="bio" alt=""/>
+      <caption webpage="bio" alt=""/>
+    </file>
+    <file name="004337x208.jpg" crc="68697667" seo="true" ref="bio">
+      <caption webpage="bio" alt=""/>
+      <caption webpage="bio" alt=""/>
+    </file>
     <file name="u13166.png" crc="3788981049" ref="contact"/>
-    <file name="blankmap-world-noborders.jpg" crc="4062073512" seo="true" ref="travel"/>
-    <file name="road.jpg" crc="4174814531" seo="true" ref="travel"/>
-    <file name="trees.jpg" crc="161751756" seo="true" ref="travel"/>
-    <file name="cactus.jpg" crc="4128071816" seo="true" ref="travel"/>
     <file name="u131662.png" crc="3788981049" ref="contact"/>
-    <file name="004337x208.jpg" crc="68697667" seo="true" ref="bio"/>
     <file name="u131663.png" crc="3788981049" ref="contact"/>
-    <file name="u131664.png" crc="3788981049" ref="contact"/>
+    <file name="blankmap-world-noborders.jpg" crc="4062073512" seo="true" ref="travel">
+      <caption webpage="travel" alt=""/>
+      <caption webpage="travel" alt=""/>
+      <caption webpage="travel" alt=""/>
+    </file>
+    <file name="arrowmenuright.png" crc="41086373" ref="index:contact:travel:photography:bio">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="photography" alt=""/>
+      <caption webpage="bio" alt=""/>
+      <caption webpage="bio" alt=""/>
+      <caption webpage="travel" alt=""/>
+      <caption webpage="travel" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4156181199" seo="true" mt="1483338130599" redirect="true"/>
-  <file name="contact.html" crc="168846911" seo="true" mt="1483338682417" redirect="true"/>
-  <file name="bio.html" crc="4109128743" seo="true" mt="1483338382980" redirect="true"/>
-  <file name="photography.html" crc="468923551" seo="true" mt="1483338130599" redirect="true"/>
-  <file name="travel.html" crc="4113680001" seo="true" mt="1483338130599" redirect="true"/>
-  <file name="notebook.html" crc="3905889552" seo="true" mt="1483338130599" redirect="true"/>
+  <file name="index.html" crc="4017279837" seo="true" mt="1498498510012" redirect="true"/>
+  <file name="bio.html" crc="4165682069" seo="true" mt="1498500590748" redirect="true"/>
+  <file name="contact.html" crc="4215171371" seo="true" mt="1498500445259" redirect="true"/>
+  <file name="photography.html" crc="74081012" seo="true" mt="1498500314243" redirect="true"/>
+  <file name="travel.html" crc="3770432846" seo="true" mt="1498499611187" redirect="true"/>
+  <file name="notebook.html" crc="493335551" seo="true" mt="1498500327632" redirect="true"/>
+  <file name="usa.html" crc="229927042" seo="true" mt="1498500355816" redirect="true"/>
+  <file name="chn.html" crc="352321534" seo="true" mt="1498500342732" redirect="true"/>
+  <file name="hkg.html" crc="42364282" seo="true" mt="1498500368760" redirect="true"/>
+  <file name="sgp.html" crc="345758097" seo="true" mt="1498500391565" redirect="true"/>
+  <file name="kor.html" crc="4226474722" seo="true" mt="1498500379851" redirect="true"/>
 </manifest>
